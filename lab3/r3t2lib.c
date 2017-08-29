@@ -16,7 +16,7 @@ int main(){
 	puts("Do you know return to library ?");
 	puts("###############################");
 	puts("What do you want to see in memory?");
-	printf("Give me an address (in dec) :");
+	printf("Give me an address (in hex) :");
 	fflush(stdout);
 	read(0,address,10);
 	addr = strtoll(address,0,16);
